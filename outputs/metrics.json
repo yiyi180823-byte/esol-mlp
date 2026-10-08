@@ -1,0 +1,43 @@
+{
+  "test": {
+    "rmse": 1.6296930768364701,
+    "mae": 1.256942868232727,
+    "r2": 0.4088607430458069
+  },
+  "train_mean_baseline": {
+    "prediction": -2.8668758314855878,
+    "rmse": 2.3149729159880033,
+    "mae": 1.7759079900039054,
+    "r2": -0.19280657847634375
+  },
+  "validation": {
+    "best_epoch": 3,
+    "best_rmse": 1.7133227270698783
+  },
+  "data": {
+    "dataset": "Delaney ESOL",
+    "total_samples": 1128,
+    "train_samples": 902,
+    "validation_samples": 113,
+    "test_samples": 113,
+    "splitter": "scaffold",
+    "feature": "1024-bit ECFP",
+    "feature_standardization": false
+  },
+  "overfit_check": {
+    "samples": 32,
+    "steps": 973,
+    "initial_mse": 7.62759256362915,
+    "final_mse": 0.002241958864033222,
+    "reduction_ratio": 0.0002939274542171554
+  },
+  "environment": {
+    "python": "3.10.20",
+    "deepchem": "2.8.0",
+    "torch": "2.14.1+cpu",
+    "rdkit": "2026.03.6",
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "scikit_learn": "1.7.2"
+  }
+}
